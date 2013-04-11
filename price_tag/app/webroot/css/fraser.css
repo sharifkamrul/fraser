@@ -1,0 +1,62 @@
+* {
+	margin:auto;
+	padding:0;
+}
+
+/*********** Common class ***************/
+.clear{width:0;height:0;line-height: 0;margin: 0; padding: 0; clear: both;}
+
+
+/******************** Price tag print preview page *********************/
+#print-price-tag{
+    /*font-family: monospace;*/
+    font-size:9pt;
+}
+
+#print-price-tag .price_tags{
+    text-align:center;
+    border:0px solid #000;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+@media screen{
+    #print-price-tag .price_tags{
+        background-color: #CDCDCD;
+    }
+}
+
+.price_tags .item_price{
+    padding-top: 3px;
+}
+
+.price_tags .item_bar_code_number{
+    padding-top: 3px;
+}
+
+.price_tags .item_bar_code{
+    padding-top: 3px;
+}
+
+.price_tags .item_section{
+    padding-top: 3px;
+}
+.price_tags .item_name{
+    /*overflow: hidden;*/
+}
+
+.price_tags .item_code{
+    /*overflow: hidden;*/
+}
+
+.price_tags .item_bar_code img{
+    width: 1.1in;
+}
+
+#print-price-tag .tag_separator{
+    border-right: 1px dotted #000000;
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 0 0 0 15px;
+}
