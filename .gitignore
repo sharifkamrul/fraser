@@ -7,3 +7,6 @@
 
 # IDE temp files #
 .idea
+
+/app/tmp
+/app/Config
