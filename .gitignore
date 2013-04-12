@@ -4,3 +4,10 @@
 *.jar
 *.war
 *.ear
+
+# IDE temp files #
+.idea
+
+# CakePHP git ignore files #
+/app/tmp
+/app/Config
