@@ -11,3 +11,5 @@
 # CakePHP git ignore files #
 /app/tmp
 /app/Config
+
+# End of file #
